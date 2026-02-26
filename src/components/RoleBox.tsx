@@ -63,15 +63,15 @@ export function RoleBox({
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 10, scale: 0.95 }}
             transition={{ duration: 0.2 }}
-            className="absolute bottom-full left-1/2 mb-3 -translate-x-1/2 w-56 rounded-xl bg-[#1a1a1a] border border-white/20 p-4 shadow-[0_10px_40px_-10px_rgba(0,0,0,0.5)] z-50 pointer-events-none"
+            className="absolute bottom-full left-1/2 mb-3 -translate-x-1/2 w-56 rounded-xl bg-[#404040] border border-white/20 p-4 shadow-[0_10px_40px_-10px_rgba(0,0,0,0.5)] z-50 pointer-events-none"
           >
-            <div className="text-xs font-semibold text-orange-400 mb-1 uppercase tracking-wider">Ответственность</div>
+            <div className="text-xs font-semibold text-[#FF495C] mb-1 uppercase tracking-wider">Ответственность</div>
             <p className="text-sm text-white/90 leading-relaxed text-center">
               {responsibility}
             </p>
             
             {/* Arrow */}
-            <div className="absolute top-full left-1/2 -mt-1.5 -ml-1.5 h-3 w-3 rotate-45 border-r border-b border-white/20 bg-[#1a1a1a]"></div>
+            <div className="absolute top-full left-1/2 -mt-1.5 -ml-1.5 h-3 w-3 rotate-45 border-r border-b border-white/20 bg-[#404040]"></div>
           </motion.div>
         )}
       </AnimatePresence>

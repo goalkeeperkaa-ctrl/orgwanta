@@ -41,7 +41,7 @@ export function Matrix() {
       </div>
       <div className="mt-6 flex gap-4 p-4 text-xs text-white/40">
         <div className="flex items-center gap-2">
-          <span className="flex h-5 w-5 items-center justify-center rounded bg-orange-500/20 font-bold text-orange-400">O</span>
+          <span className="flex h-5 w-5 items-center justify-center rounded bg-[#FF495C]/20 font-bold text-[#FF495C]">O</span>
           <span>Ответствен</span>
         </div>
         <div className="flex items-center gap-2">
@@ -59,7 +59,7 @@ export function Matrix() {
 
 function renderBadge(code: string) {
   if (!code) return null;
-  if (code === "O") return <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-orange-500/20 font-bold text-orange-400 shadow-[0_0_10px_rgba(249,115,22,0.2)]">O</span>;
+  if (code === "O") return <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-[#FF495C]/20 font-bold text-[#FF495C] shadow-[0_0_10px_rgba(255,73,92,0.2)]">O</span>;
   if (code === "C") return <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-blue-500/20 font-bold text-blue-400">C</span>;
   if (code === "I") return <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/5 font-bold text-white/40">I</span>;
   return code;

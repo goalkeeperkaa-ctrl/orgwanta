@@ -14,11 +14,11 @@ export function GlassCard({ children, className = "", title, subtitle }: GlassCa
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
-      className={`relative rounded-3xl border border-white/10 bg-black/40 backdrop-blur-xl p-6 shadow-2xl ${className}`}
+      className={`relative rounded-3xl border border-white/10 bg-[#404040]/40 backdrop-blur-xl p-6 shadow-2xl ${className}`}
     >
       {/* Subtle gradient glow effect - contained to prevent overflow */}
       <div className="absolute inset-0 overflow-hidden rounded-3xl pointer-events-none">
-        <div className="absolute -top-20 -right-20 h-64 w-64 rounded-full bg-orange-500/10 blur-3xl" />
+        <div className="absolute -top-20 -right-20 h-64 w-64 rounded-full bg-[#FF495C]/10 blur-3xl" />
       </div>
       
       {(title || subtitle) && (

@@ -28,15 +28,15 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen w-full bg-black text-white selection:bg-orange-500/30">
+    <div className="min-h-screen w-full bg-[#1a1a1a] text-white selection:bg-[#FF495C]/30">
       {/* Background Image with Overlay */}
       <div className="fixed inset-0 z-0">
         <img 
           src={BG_IMAGE} 
           alt="Background" 
-          className="h-full w-full object-cover opacity-60"
+          className="h-full w-full object-cover opacity-40 grayscale-[20%]"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-black/40" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#1a1a1a] via-[#1a1a1a]/80 to-[#1a1a1a]/40" />
         <div className="absolute inset-0 backdrop-blur-[2px]" />
       </div>
 
@@ -49,7 +49,7 @@ export default function App() {
             className="inline-block"
           >
             <h1 className="text-4xl font-bold tracking-tight text-white md:text-6xl drop-shadow-lg">
-              Wanta <span className="text-orange-500">Group</span>
+              Wanta <span className="text-[#FF495C]">Group</span>
             </h1>
             <p className="mt-2 text-lg text-white/60 font-light tracking-wide">
               Organizational Structure & Process Guide

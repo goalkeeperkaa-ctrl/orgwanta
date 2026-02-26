@@ -27,9 +27,9 @@ export function Conflicts() {
         </div>
       </GlassCard>
 
-      <GlassCard className="border-l-4 border-l-orange-500">
+      <GlassCard className="border-l-4 border-l-[#FF495C]">
         <div className="mb-4 flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-orange-500/20 text-orange-400">
+          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#FF495C]/20 text-[#FF495C]">
             <ShieldAlert size={20} />
           </div>
           <h3 className="text-lg font-bold text-white">Проблемы с выборкой</h3>
@@ -73,8 +73,8 @@ export function Conflicts() {
         </div>
       </GlassCard>
 
-      <GlassCard className="col-span-1 md:col-span-2 bg-gradient-to-r from-orange-500/10 to-transparent border-orange-500/20">
-        <h3 className="text-lg font-bold text-orange-400 mb-2">Главное правило</h3>
+      <GlassCard className="col-span-1 md:col-span-2 bg-gradient-to-r from-[#FF495C]/10 to-transparent border-[#FF495C]/20">
+        <h3 className="text-lg font-bold text-[#FF495C] mb-2">Главное правило</h3>
         <p className="text-white/80">
           Сообщай о проблемах <strong>СРАЗУ</strong>. Три главные роли (PM, РДА, Полевой блок) должны знать друг о друге о любых проблемах в день их возникновения.
         </p>

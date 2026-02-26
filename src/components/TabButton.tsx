@@ -13,17 +13,17 @@ export function TabButton({ active, onClick, icon: Icon, label }: TabButtonProps
       onClick={onClick}
       className={`group relative flex flex-col items-center justify-center gap-2 rounded-2xl p-4 transition-all duration-300 ${
         active 
-          ? "bg-white/10 text-orange-400 shadow-[0_0_20px_rgba(251,146,60,0.1)]" 
+          ? "bg-white/10 text-[#FF495C] shadow-[0_0_20px_rgba(255,73,92,0.1)]" 
           : "text-white/40 hover:bg-white/5 hover:text-white/80"
       }`}
     >
-      <div className={`rounded-full p-2 transition-all ${active ? "bg-orange-500/20" : "bg-transparent group-hover:bg-white/5"}`}>
+      <div className={`rounded-full p-2 transition-all ${active ? "bg-[#FF495C]/20" : "bg-transparent group-hover:bg-white/5"}`}>
         <Icon size={24} strokeWidth={active ? 2.5 : 2} />
       </div>
       <span className="text-xs font-medium tracking-wide uppercase">{label}</span>
       
       {active && (
-        <span className="absolute -bottom-1 left-1/2 h-1 w-12 -translate-x-1/2 rounded-full bg-orange-500 blur-[2px]" />
+        <span className="absolute -bottom-1 left-1/2 h-1 w-12 -translate-x-1/2 rounded-full bg-[#FF495C] blur-[2px]" />
       )}
     </button>
   );
