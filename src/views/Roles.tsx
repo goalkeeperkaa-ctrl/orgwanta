@@ -38,14 +38,14 @@ export function Roles() {
         </div>
       </GlassCard>
 
-      {/* RDA */}
+      {/* RPD */}
       <GlassCard className="relative overflow-hidden">
         <div className="absolute top-0 left-0 h-1 w-full bg-gradient-to-r from-purple-500 to-pink-500"></div>
         <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-purple-500/20 text-purple-400">
           <Users size={24} />
         </div>
-        <h3 className="mb-1 text-2xl font-bold text-white">РДА</h3>
-        <p className="mb-4 text-sm text-purple-300">Рук. Деп. Аналитики</p>
+        <h3 className="mb-1 text-2xl font-bold text-white">РПД</h3>
+        <p className="mb-4 text-sm text-purple-300">Рук. Продуктового Деп.</p>
         
         <div className="mb-6 rounded-xl bg-white/5 p-4 backdrop-blur-sm">
           <p className="text-sm text-white/80 italic">"Хранитель качества"</p>
@@ -83,7 +83,7 @@ export function Roles() {
         
         <div className="mb-6 rounded-xl bg-white/5 p-4 backdrop-blur-sm">
           <p className="text-sm text-white/80 italic">"Исполнитель"</p>
-          <p className="mt-2 text-xs text-white/50">Собрать данные в точности по методологии РДА в сроки PM.</p>
+          <p className="mt-2 text-xs text-white/50">Собрать данные в точности по методологии РПД в сроки PM.</p>
         </div>
 
         <div className="space-y-4">

@@ -47,14 +47,14 @@ export function Hierarchy() {
           </div>
         </GlassCard>
 
-        {/* Analytics & Field - Spans 2 columns */}
-        <GlassCard className="border-t-4 border-t-purple-500 lg:col-span-2" title="Департамент аналитики">
+        {/* Product Department & Field - Spans 2 columns */}
+        <GlassCard className="border-t-4 border-t-purple-500 lg:col-span-2" title="Продуктовый департамент">
            <div className="flex flex-col gap-8">
              <div className="flex justify-center">
                <div className="w-full max-w-md">
                  <RoleBox 
-                   title="РДА" 
-                   subtitle="Руководитель Департамента"
+                   title="РПД" 
+                   subtitle="Руководитель Продуктового Департамента"
                    responsibility="Разработка методологии, контроль качества исследований и научное руководство." 
                  />
                </div>

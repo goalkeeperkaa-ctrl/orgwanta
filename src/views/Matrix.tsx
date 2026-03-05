@@ -19,7 +19,7 @@ export function Matrix() {
             <tr className="border-b border-white/10 bg-white/5">
               <th className="p-4 font-medium text-white/60">Процесс</th>
               <th className="p-4 font-medium text-blue-300">PM</th>
-              <th className="p-4 font-medium text-purple-300">РДА</th>
+              <th className="p-4 font-medium text-purple-300">РПД</th>
               <th className="p-4 font-medium text-emerald-300">Полевой</th>
               <th className="p-4 font-medium text-white/60">Ст. Аналитик</th>
               <th className="p-4 font-medium text-white/60">Опер. Дир</th>

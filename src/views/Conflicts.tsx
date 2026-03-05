@@ -14,7 +14,7 @@ export function Conflicts() {
         <div className="space-y-4 text-sm">
           <div className="rounded-lg bg-white/5 p-3">
             <span className="block text-xs font-bold uppercase text-white/40 mb-1">Ситуация</span>
-            <p className="text-white/80">PM: "Нужен отчёт за 2 недели"<br/>РДА: "Невозможно без потери качества"</p>
+            <p className="text-white/80">PM: "Нужен отчёт за 2 недели"<br/>РПД: "Невозможно без потери качества"</p>
           </div>
           <div>
             <span className="block text-xs font-bold uppercase text-white/40 mb-1">Решение</span>
@@ -76,7 +76,7 @@ export function Conflicts() {
       <GlassCard className="col-span-1 md:col-span-2 bg-gradient-to-r from-[#FF495C]/10 to-transparent border-[#FF495C]/20">
         <h3 className="text-lg font-bold text-[#FF495C] mb-2">Главное правило</h3>
         <p className="text-white/80">
-          Сообщай о проблемах <strong>СРАЗУ</strong>. Три главные роли (PM, РДА, Полевой блок) должны знать друг о друге о любых проблемах в день их возникновения.
+          Сообщай о проблемах <strong>СРАЗУ</strong>. Три главные роли (PM, РПД, Полевой блок) должны знать друг о друге о любых проблемах в день их возникновения.
         </p>
       </GlassCard>
     </div>
